@@ -1,0 +1,1 @@
+SELECT emp_name, job_name, salary FROM employees WHERE job_name='MANAGER';

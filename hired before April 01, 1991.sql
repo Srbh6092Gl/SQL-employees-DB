@@ -1,0 +1,1 @@
+SELECT emp_id, emp_name, hire_date, salary FROM employees WHERE hire_date<'1991-04-01';
