@@ -1,0 +1,1 @@
+SELECT * FROM employees WHERE 2022-DATE_FORMAT(hire_date, '%Y')>27;

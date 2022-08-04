@@ -1,0 +1,1 @@
+SELECT CONCAT(emp_name,' works for ',(SELECT emp_name FROM employees AS e WHERE e.emp_id=ee.manager_id)) FROM employees AS ee;
